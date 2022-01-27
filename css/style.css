@@ -1,3 +1,13 @@
+html{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+h1{
+    font-weight: 700;
+    text-align: center;
+}
+
 a{
     text-decoration: none;
     color: white;
@@ -15,7 +25,20 @@ a{
 ul{
     list-style: none;
 }
-li{
-    display: list-item;
-    text-align: center;
+.nav-list{
+    display: flex;
+   margin-right: 10rem;
+}
+
+.welcome-section{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-section > p{
+    font-size: 3rem;
+    font-style: italic;
+    font-weight: 200;
 }
