@@ -1,0 +1,21 @@
+a{
+    text-decoration: none;
+    color: white;
+}
+#navbar{
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    background-color: rgb(148, 44, 44);
+    width: 100%;
+    top: 0;
+    left: 0;
+
+}
+ul{
+    list-style: none;
+}
+li{
+    display: list-item;
+    text-align: center;
+}
