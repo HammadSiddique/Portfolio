@@ -21,25 +21,35 @@ a{
     width: 100%;
     top: 0;
     left: 0;
+    z-index: 10;
 
 }
 ul{
     list-style: none;
 }
 .nav-list{
-    display: flex;
+   display: flex;
+   justify-content: center;
    margin-right: 10rem;
+   /* justify-content: space-between; */
+
 }
 
-.welcome-section{
+.welcome-section {
     display:flex;
     flex-direction: column;
+    /* justify-content: center; */
+    margin-top: 200px;
     justify-content: center;
     align-items: center;
 }
 
 .welcome-section > p{
-    font-size: 3rem;
+    font-size: rem;
     font-style: italic;
     font-weight: 200;
+    justify-content: center;
+    /* background-color:  #000; */
+    width: 100%;
+    flex-direction: column;
 }
